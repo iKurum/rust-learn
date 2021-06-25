@@ -1,0 +1,11 @@
+D:\code\rust\learn\target\debug\deps\getrandom-68f0544bcfbf2b70.rmeta: C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\lib.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\util.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error_impls.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\windows.rs
+
+D:\code\rust\learn\target\debug\deps\libgetrandom-68f0544bcfbf2b70.rlib: C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\lib.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\util.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error_impls.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\windows.rs
+
+D:\code\rust\learn\target\debug\deps\getrandom-68f0544bcfbf2b70.d: C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\lib.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\util.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error_impls.rs C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\windows.rs
+
+C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\lib.rs:
+C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error.rs:
+C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\util.rs:
+C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error_impls.rs:
+C:\Users\Admin\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\windows.rs:
