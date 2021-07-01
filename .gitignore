@@ -1,1 +1,7 @@
 target/
+
+.vscode/
+
+node_modules/
+
+*.log
