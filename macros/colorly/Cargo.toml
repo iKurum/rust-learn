@@ -1,0 +1,11 @@
+[package]
+name = "colorly"
+authors = ["ikurum <cyan@ikurum.cn>"]
+version = "0.1.0"
+edition = "2018"
+description = "print for color text."
+license = "MIT OR Apache-2.0"
+
+[lib]
+proc-macro = true
+path = "src/lib.rs"

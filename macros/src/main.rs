@@ -1,9 +1,11 @@
-use macro_h::HelloMacro;
-use macros_derive::HelloMacro;
+use colorly::colorly;
+// use macro_h::HelloMacro;
+// use macros_derive::HelloMacro;
 
-#[derive(HelloMacro)]
-struct Pancakes;
+// #[derive(HelloMacro)]
+// struct Pancakes;
 
 fn main() {
-    Pancakes::hello_macro();
+    // Pancakes::hello_macro();
+    colorly!("asd");
 }

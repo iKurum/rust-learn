@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2018"
 
 [dependencies]
-macro_h = { path = "../macros/macro_h" }
-macros_derive = { path = "../macros/macros_derive" }
+macro_h = { path="../macros/macro_h" }
+colorly = { path="../macros/colorly" }
+macros_derive = { path="../macros/macros_derive" }

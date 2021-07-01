@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "colorly"
+version = "0.1.0"
+
+[[package]]
 name = "macro_h"
 version = "0.1.0"
 
@@ -10,6 +14,7 @@ version = "0.1.0"
 name = "macros"
 version = "0.1.0"
 dependencies = [
+ "colorly",
  "macro_h",
  "macros_derive",
 ]
