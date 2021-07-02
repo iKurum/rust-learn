@@ -1,3 +1,5 @@
-mod lib;
+mod simple;
+mod medium;
+mod hard;
 
 fn main() {}
