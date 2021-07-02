@@ -1,7 +1,9 @@
-pub struct Solution;
+#![allow(dead_code)]
+
+struct Solution;
 
 impl Solution {
-  pub fn num_ways(n: i32, relation: Vec<Vec<i32>>, k: i32) -> i32 {
+  fn num_ways(n: i32, relation: Vec<Vec<i32>>, k: i32) -> i32 {
     let mut dp: Vec<i32> = [0].repeat(n as usize);
     dp[0] = 1;
 
@@ -18,5 +20,24 @@ impl Solution {
     }
 
     dp[(n - 1) as usize]
+  }
+}
+
+#[cfg(test)]
+mod tests {
+  use super::*;
+
+  #[test]
+  fn lcp7() {
+    let relation = vec![
+      vec![0, 2],
+      vec![2, 1],
+      vec![3, 4],
+      vec![2, 3],
+      vec![1, 4],
+      vec![2, 0],
+      vec![0, 4],
+    ];
+    assert_eq!(3, Solution::num_ways(5, relation, 3));
   }
 }
