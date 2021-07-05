@@ -3,6 +3,8 @@ mod medium;
 mod simple;
 
 fn main() {
+  println!("{}", hard::c726::test(String::from("H2O")));
+
   // let mut l1 = Some(Box::new(medium::c2::ListNode::new(3)));
   // let mut t = medium::c2::ListNode::new(4);
   // t.next = l1;
