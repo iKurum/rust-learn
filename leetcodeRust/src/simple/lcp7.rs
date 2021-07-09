@@ -13,13 +13,12 @@ impl Solution {
   /// 
   /// 限制：
   /// 
-  /// - 2 <= n <= 10
-  /// 
-  /// - 1 <= k <= 5
-  /// 
-  /// - 1 <= relation.length <= 90, 且 relation[i].length == 2
-  /// 
-  /// - 0 <= relation[i][0],relation[i][1] < n 且 relation[i][0] != relation[i][1]
+  /// ```
+  ///   2 <= n <= 10
+  ///   1 <= k <= 5
+  ///   1 <= relation.length <= 90, 且 relation[i].length == 2
+  ///   0 <= relation[i][0],relation[i][1] < n 且 relation[i][0] != relation[i][1]
+  /// ```
   fn num_ways(n: i32, relation: Vec<Vec<i32>>, k: i32) -> i32 {
     let mut dp: Vec<i32> = [0].repeat(n as usize);
     dp[0] = 1;
