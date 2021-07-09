@@ -15,9 +15,9 @@ impl Solution {
   /// 
   /// ```
   ///   costs.length == n
-  ///   1 <= n <= 105
-  ///   1 <= costs[i] <= 105
-  ///   1 <= coins <= 108
+  ///   1 <= n <= 10^5
+  ///   1 <= costs[i] <= 10^5
+  ///   1 <= coins <= 10^8
   /// ```
   pub fn max_ice_cream(costs: Vec<i32>, coins: i32) -> i32 {
     // 贪心
