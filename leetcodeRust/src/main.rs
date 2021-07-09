@@ -3,7 +3,7 @@ mod medium;
 mod simple;
 
 fn main() {
-  println!("{}", hard::c726::test(String::from("H2O")));
+  println!("{}", medium::c930::test(vec![1, 0, 1, 0, 1], 2));
 
   // let mut l1 = Some(Box::new(medium::c2::ListNode::new(3)));
   // let mut t = medium::c2::ListNode::new(4);
