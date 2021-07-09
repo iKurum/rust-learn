@@ -10,7 +10,7 @@ impl Solution {
   /// 提示：
   /// 
   /// ```
-  ///   1 <= nums.length <= 3 * 104
+  ///   1 <= nums.length <= 3 * 10^4
   ///   nums[i] 不是 0 就是 1
   ///   0 <= goal <= nums.length
   /// ```
