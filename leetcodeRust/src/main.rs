@@ -3,7 +3,7 @@ mod medium;
 mod simple;
 
 fn main() {
-  println!("{}", medium::c930::test(vec![1, 0, 1, 0, 1], 2));
+  println!("{}", medium::c1711::test(vec![1, 1, 1, 3, 3, 3, 7]));
 
   // let mut l1 = Some(Box::new(medium::c2::ListNode::new(3)));
   // let mut t = medium::c2::ListNode::new(4);
