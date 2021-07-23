@@ -4,3 +4,4 @@ pub mod offer53_1;
 pub mod c704;
 pub mod c278;
 pub mod c35;
+pub mod c977;
