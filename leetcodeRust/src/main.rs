@@ -3,5 +3,5 @@ mod medium;
 mod simple;
 
 fn main() {
-  println!("{}", simple::offer53_1::test(vec![1], 0));
+  println!("{:?}", medium::c189::test(&mut vec![1, 2, 3, 4, 5, 6, 7], 3));
 }
