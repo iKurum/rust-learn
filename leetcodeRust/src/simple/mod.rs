@@ -7,3 +7,4 @@ pub mod c35;
 pub mod c977;
 pub mod c283;
 pub mod c167;
+pub mod c344;
