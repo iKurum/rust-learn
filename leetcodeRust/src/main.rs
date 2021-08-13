@@ -3,5 +3,5 @@ mod medium;
 mod simple;
 
 fn main() {
-  println!("{:?}", simple::c167::test(vec![2,7,11,15], 9));
+  println!("{:?}", hard::c233::test(13));
 }
