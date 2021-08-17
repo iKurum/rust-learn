@@ -3,5 +3,5 @@ mod medium;
 mod simple;
 
 fn main() {
-  println!("{:?}", hard::c233::test(13));
+  println!("{:?}", simple::c551::test(String::from("PPALAALP")));
 }
