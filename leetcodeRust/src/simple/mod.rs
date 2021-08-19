@@ -9,3 +9,4 @@ pub mod c283;
 pub mod c167;
 pub mod c344;
 pub mod c551;
+pub mod c345;
