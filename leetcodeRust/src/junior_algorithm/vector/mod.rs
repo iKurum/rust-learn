@@ -6,3 +6,4 @@ pub mod six;
 pub mod there;
 pub mod two;
 pub mod seven;
+pub mod eight;
