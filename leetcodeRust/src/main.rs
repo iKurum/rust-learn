@@ -1,8 +1,14 @@
 mod hard;
+mod junior_algorithm;
 mod medium;
 mod simple;
-mod junior_algorithm;
 
 fn main() {
-  println!("{:?}", simple::c345::test(String::from("leetcode")));
+  let mut nums: Vec<i32> = vec![];
+  let result = junior_algorithm::vector::one::test(&mut nums);
+  println!(
+    "{:?}, {:?}",
+    result,
+    nums
+  );
 }
