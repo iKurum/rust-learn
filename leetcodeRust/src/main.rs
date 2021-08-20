@@ -4,6 +4,6 @@ mod medium;
 mod simple;
 
 fn main() {
-  let result = simple::c541::test(String::from("abcdefg"), 2);
+  let result = junior_algorithm::vector::nine::test(vec![2,7,11,15], 9);
   println!("{:?}", result,);
 }
