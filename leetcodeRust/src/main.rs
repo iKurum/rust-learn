@@ -4,6 +4,5 @@ mod medium;
 mod simple;
 
 fn main() {
-  let v = "RLRRLLRLRL".to_string();
-  println!("{:?}", simple::c1221::test(v));
+  println!("{:?}", hard::c502::test(2, 0, vec![1, 2, 3], vec![0, 1, 1]));
 }
