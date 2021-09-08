@@ -4,5 +4,7 @@ mod medium;
 mod simple;
 
 fn main() {
-  println!("{:?}", hard::c502::test(2, 0, vec![1, 2, 3], vec![0, 1, 1]));
+  let mut arr = vec!['h','e','l','l','o'];
+  junior_algorithm::string::s01::test(&mut arr);
+  println!("{:?}", arr);
 }
