@@ -6,3 +6,4 @@ pub mod c1818;
 pub mod c1877;
 pub mod c189;
 pub mod c165;
+pub mod c1894;
