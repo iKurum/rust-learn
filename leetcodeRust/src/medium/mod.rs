@@ -7,3 +7,4 @@ pub mod c1877;
 pub mod c189;
 pub mod c165;
 pub mod c1894;
+pub mod c524;
