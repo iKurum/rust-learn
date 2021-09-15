@@ -6,6 +6,6 @@ mod simple;
 fn main() {
   println!(
     "{:#?}",
-    junior_algorithm::string::s03::test("loveleetcode".to_string())
+    junior_algorithm::string::s04::test("anagram".to_string(), "aagaram".to_string())
   );
 }
