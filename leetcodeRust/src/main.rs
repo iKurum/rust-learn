@@ -6,9 +6,6 @@ mod simple;
 fn main() {
   println!(
     "{:#?}",
-    medium::c524::test(
-      "abpcplea".to_string(),
-      vec!["ale".to_string(),"apple".to_string(),"monkey".to_string(),"plea".to_string()]
-    )
+    junior_algorithm::string::s03::test("loveleetcode".to_string())
   );
 }
