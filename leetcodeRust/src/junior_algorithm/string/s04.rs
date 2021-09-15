@@ -41,3 +41,12 @@ impl Solution {
 pub fn test(s: String, t: String) -> bool {
   Solution::is_anagram(s, t)
 }
+
+#[cfg(test)]
+mod tests {
+  use super::*;
+  #[test]
+  fn is_anagram() {
+      assert_eq!(true, Solution::is_anagram("anagram".to_string(), "nagaram".to_string()))
+  }
+}
