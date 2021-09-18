@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub mod lcp7;
 pub mod c1;
 pub mod offer53_1;
@@ -12,3 +13,4 @@ pub mod c551;
 pub mod c345;
 pub mod c541;
 pub mod c1221;
+pub mod c292;
