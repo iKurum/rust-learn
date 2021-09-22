@@ -1,6 +1,6 @@
 mod methods;
 #[allow(unused_imports)]
-use crate::methods::{cp, fibo, first_word, guess, pig_latin, Num, User};
+use crate::methods::{cp, fibo, first_word, guess, linked_list, pig_latin, Num, User};
 
 fn main() {
     // guess::run();
@@ -32,5 +32,15 @@ fn main() {
     // println!("{}: {}", "apple", pig_latin("apple"));
     // println!("{}: {}", "First", pig_latin("First"));
 
-    cp::run();
+    // cp::run();
+
+    let mut list = linked_list::List::new(0);
+    // 追加一些元素
+    list.push(1);
+    list.push(2);
+    list.push(3);
+    list.unshift(4);
+    // 显示链表的最后状态
+    println!("linked list has length: {}", list.len());
+    println!("{:?}", list.stringify());
 }

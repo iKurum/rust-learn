@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 mod fibo_loop;
 pub use fibo_loop::fibo;
 
@@ -12,3 +13,5 @@ pub use number::num::Num;
 
 mod company;
 pub use company::cp;
+
+pub mod linked_list;
