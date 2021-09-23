@@ -34,12 +34,12 @@ fn main() {
 
     // cp::run();
 
-    let mut list = linked_list::List::new(0);
+    let mut list = linked_list::List::new("a");
     // 追加一些元素
-    list.push(1);
-    list.push(2);
-    list.push(3);
-    list.unshift(4);
+    list.push("1");
+    list.push("2");
+    list.push("3");
+    list.unshift("4");
     // 显示链表的最后状态
     println!("linked list has length: {}", list.len());
     println!("{:?}", list.stringify());
